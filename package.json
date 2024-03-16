@@ -1,6 +1,6 @@
 {
-  "name": "MUSIC NW",
-  "version": "15.3.0",
+  "name": "AurA",
+  "version": "2.0.1",
   "description": "discord.js v14.7 music bot. for slash commands",
   "main": "index.js",
   "dependencies": {
@@ -22,7 +22,8 @@
     "ffmpeg": "^0.0.4",
     "ffmpeg-static": "^5.2.0",
     "libsodium-wrappers": "^0.7.11",
-    "mongodb": "^6.2.0",
+    "mangodb": "^1.0.0",
+    "mongodb": "^6.5.0",
     "mongoose": "^6.11.6",
     "random-anime": "^1.0.6",
     "sapphire": "^0.0.3",
@@ -31,8 +32,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "RTX GAMING",
-  "license": "XX",
+  "author": "DyNin",
+  "license": "DyNin",
   "engines": {
     "node": "18.x"
   }
