@@ -1,18 +1,4 @@
-/*
 
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   
-   # MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-   ## FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/FUEHs7RCqz ]
-   ## YT : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-*/
 const { ApplicationCommandOptionType } = require('discord.js');
 const db = require("../mongoDB");
 
@@ -57,8 +43,8 @@ module.exports = {
            { name: '🎵 Now Playing', value: 'Display the currently playing song information' },
           { name: '🔊 Volume', value: 'Adjust the music volume [ hearing at high volumes is risky ]' },
         ) 
-       .setImage('https://cdn.discordapp.com/attachments/1150827819547504741/1168917372267151370/standard.gif?ex=65538222&is=65410d22&hm=b4994392f44679da41fc9304eb69deaa3769e136057556deec0db69ae8d33a97&')
-      const button1 = new ButtonBuilder()
+       .setImage('https://cdn.discordapp.com/attachments/1094553235022417953/1218551899582632079/standard_1.gif?ex=660813e4&is=65f59ee4&hm=f9ee78b082980619f90511144615eec46d9808e0b63ca879917b6c30ea9c8f9b&')
+      /*const button1 = new ButtonBuilder()
         .setLabel('YouTube')
         .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
         .setStyle(ButtonStyle.Link);
@@ -74,30 +60,14 @@ module.exports = {
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
-        .addComponents(button1, button2, button3);
+        .addComponents(button1, button2, button3);*/
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
-        components: [row]
+        ///components: [row]
       }).catch(e => {});
     } catch (e) {
       console.error(e);
     }
   },
 };
-
-/*
-
-  ██████╗░████████╗██╗░░██╗           
-  ██╔══██╗╚══██╔══╝╚██╗██╔╝          
-  ██████╔╝░░░██║░░░░╚███╔╝░          
-  ██╔══██╗░░░██║░░░░██╔██╗░          
-  ██║░░██║░░░██║░░░██╔╝╚██╗          
-  ╚═╝░░╚═╝░░░╚═╝░░░╚═╝░░╚═╝          
-
-   
-   # MADE BY RTX!! FEEL FREE TO USE ANY PART OF CODE
-   ## FOR HELP CONTACT ME ON DISCORD
-   ## Contact    [ DISCORD SERVER :  https://discord.gg/FUEHs7RCqz ]
-   ## YT : https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A
-*/
