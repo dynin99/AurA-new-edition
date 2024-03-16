@@ -1,10 +1,10 @@
 module.exports = {
   TOKEN: "",
-  ownerID: ["1004206704994566164", ""],
+  ownerID: ["394505972347043850", ""],
   botInvite: "",
   supportServer: "",
-  mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
-  status: 'RTXX GG',
+  mongodbURL: "mongodb+srv://DYNIN:DYNIN99@cluster0.yzmv51o.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0",
+  status: 'DyNin GG',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
@@ -13,7 +13,7 @@ module.exports = {
 
   sponsor: {
     status: true,
-    url: "https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A",
+    url: "",
   },
 
   voteManager: {
