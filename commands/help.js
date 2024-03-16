@@ -46,7 +46,7 @@ module.exports = {
        .setImage('https://cdn.discordapp.com/attachments/1094553235022417953/1218551899582632079/standard_1.gif?ex=660813e4&is=65f59ee4&hm=f9ee78b082980619f90511144615eec46d9808e0b63ca879917b6c30ea9c8f9b&')
       /*const button1 = new ButtonBuilder()
         .setLabel('YouTube')
-        .setURL('https://www.youtube.com/channel/UCPbAvYWBgnYhliJa1BIrv0A')
+        .setURL('https://www.youtube.com/channel/UCPb'AvYWBgnYhliJa1BIrv0A')
         .setStyle(ButtonStyle.Link);
 
       const button2 = new ButtonBuilder()
@@ -56,7 +56,7 @@ module.exports = {
 
       const button3 = new ButtonBuilder()
         .setLabel('Code')
-        .setURL('https://github.com/RTX-GAMINGG/RTX-MUSIC-BOT-v3.6')
+        .setURL('https://replit.com/@BEASTGAMERS1?tab=community')
         .setStyle(ButtonStyle.Link);
 
       const row = new ActionRowBuilder()
@@ -64,7 +64,7 @@ module.exports = {
 
       interaction.reply({
         embeds: [musicCommandsEmbed, basicCommandsEmbed],
-        ///components: [row]
+        //components: [row]
       }).catch(e => {});
     } catch (e) {
       console.error(e);
